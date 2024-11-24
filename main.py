@@ -1,4 +1,4 @@
-                                                      ##AI MODEL###
+## all imports ##                                                 
 import speech_recognition as sr
 import os
 import openai
@@ -45,7 +45,7 @@ def ai(prompt):
     )
 
 
-    # todo: Wrap this inside of a  try catch block
+
 
     #print(response["choices"][0]["text"])
     text += response["choices"][0]["text"]
